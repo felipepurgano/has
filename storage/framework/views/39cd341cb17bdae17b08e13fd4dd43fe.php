@@ -4,11 +4,15 @@ include( 'base/base.html' );
 
 <!DOCTYPE html>
 <html lang='pt-br'>
-  <!-- Link do CSS do Bootstrap -->
+<!-- Link do CSS do Bootstrap -->
 <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
-    <!-- Link do CSS da página -->
+<!-- Link do CSS da página -->
 <link rel='stylesheet' href='css/style.css'>
+<!-- Link JavaScript da Navbar -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
 
 <head>
     <meta charset='UTF-8'>
@@ -41,12 +45,12 @@ include( 'base/base.html' );
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../img/classificacao.jpg" class="d-block w-100" alt="...">
+                <img src="../img/habitos.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>Segundo Slide</h5>
         <p>Some representative placeholder content for the second slide.</p> -->
                 </div>
-            <!-- </div>
+                <!-- </div>
             <div class="carousel-item">
                 <img src="../img/HAS.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -70,25 +74,31 @@ include( 'base/base.html' );
 
 <body>
 
-<div class="quebra">
-  <h3>Guia Médico</h3>
-  <p>Acesse e veja a classificação da Hipertensão Arterial Sistêmica</p>
-  <button><a href="../o-que-e">Clique Aqui</a></button>
-</div>
+    <div class="quebra">
+        <h3>Classificação da HAS</h3>
+        <p>Acesse e veja a classificação da Hipertensão Arterial Sistêmica</p>
+        <button><a href="../classificacao">Classificação</a></button>
+    </div>
+    <div>
+        <h3> Cuidados com a Hipertensão Arterial Sistêmica</h3>
+        <iframe class='video' src='https://www.youtube.com/embed/qrzcftrboy8?si=E5XSspRk1Cjk01ha'
+            title='YouTube video player' frameborder='0' allow='autoplay, loop, controls' allowfullscreen='false'
+            muted></iframe>
+        <br>
 
-    <h3> Cuidados com a Hipertensão Arterial Sistêmica</h3>
-    <iframe class='video' src='https://www.youtube.com/embed/qrzcftrboy8?si=E5XSspRk1Cjk01ha'
-        title='YouTube video player' frameborder='0' allow='autoplay, loop, controls' allowfullscreen='false'
-        muted></iframe>
-    <br>
+        <p>Saiba Mais à respeito: <a href='https://www.redalyc.org/journal/3240/324044160008/html/' target='_blank'>
+                Vantagens do auto-cuidado na HAS </a></p>
+    </div>
 
-    <p>Saiba Mais à respeito: <a href='https://www.redalyc.org/journal/3240/324044160008/html/' target='_blank'>
-            Vantagens do auto-cuidado na HAS </a></p>
+    <div class="duvidas">
+        <h3>Ainda ficou com dúvidas?</h3>
+        <p>Clique no botão abaixo e preencha nosso formulário de perguntas, com isso poderemos sanar as dúvidas mais específicas com mais facilidade.</p>
+        <button><a href="../contato">Formulário</a></button>
+    </div>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+<br><br>
+<footer>&copy;Criado por Grupo007 de PI UNIVESP 2023</footer>
 
 </html>
 <?php /**PATH C:\Users\Felipe\Desktop\PI\Novo\HAS\resources\views/home.blade.php ENDPATH**/ ?>

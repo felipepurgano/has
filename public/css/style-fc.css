@@ -49,7 +49,7 @@ textarea {
 
 .form_box input,
 .form_box textarea {
-    width: calc(50% - 8px);
+    width: calc(50% - 1px);
     height: 48px;
     border-radius: 8px;
     border: thin solid #999;
