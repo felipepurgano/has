@@ -18,7 +18,7 @@ h3 {
 }
 
 .quebra{
-    height: 200px;
+    height: 150px;
     width: auto;
     background-color: #fff;
 }
@@ -64,6 +64,28 @@ p {
     opacity: 0.3;
     width: 1500;
     size: 1500;
+}
+
+.duvidas{
+    height: 180px;
+    width: auto;
+    background-color: #fff;
+}
+
+.duvidas button{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: chartreuse;
+    text-decoration: none;
+}
+
+.duvidas a{
+    text-decoration: none;
+    color: black;
 }
 
 footer {
